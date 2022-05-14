@@ -24,7 +24,7 @@ This repository contains code to cluster and generate figures for "Systematic id
 **Hydra_differentially_expressed_genes.R**: The script was used for perform differential expression analysis for cells in each lineage-cell type separately according to the cell type hierarchy of invertebrates using FindMarkers function in Seurat. Hydra was used as an example.
 
 
-**Human_cell_type_pairs.ipynb"**: The script was used for connecting cell states across time according to gene expression similarity of cell types in vertebrates. Human was used as an example.
+**Human_cell_type_pairs.ipynb**: The script was used for connecting cell states across time according to gene expression similarity of cell types in vertebrates. Human was used as an example.
 
 
 **Human_differentially_expressed_genes.R**: The script was used for perform differential expression analysis for cells in each tissue-cell type separately according to the cell type hierarchy of vertebrates using FindMarkers function in Seurat. Human was used as an example.
