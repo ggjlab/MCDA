@@ -1,6 +1,4 @@
 # MCDA
-This repository contains code to cluster and generate figures for MCDA
-
 
 This repository contains code to cluster and generate figures for "Systematic identification of cell fate regulatory programs using a single-cell atlas of mouse development".
 
