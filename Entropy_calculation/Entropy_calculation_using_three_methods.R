@@ -69,7 +69,7 @@ load("embryo125_seuratobject.RData") ## load the seurat object (named the seurat
 #zz_all <- read.csv("./colsum.csv",stringsAsFactors=F) #for large datasets, calculate the colsums (sum of umi per cell) in python. df.sum(axis=1) first
 zz_all <- Matrix::colSums(pbmc@assays$RNA@counts)
 
-mm<-median(zz_all$x)
+mm<-median(zz_all)
 tissue <- unique(pbmc@meta.data$batch)
 Idents(pbmc)<-"batch"
 i=1
